@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;/*清除小圆点*/
+}
+
+.start {
+    height: 74px;
+    margin-bottom: 10px;
+    background: #DDDDDD;
+}
+
+.start .left li,.start .right li {
+    width: 111px;
+    height: 74px;
+    text-align: center;/*文字水平居中*/
+    line-height: 74px;/*文字垂直居中 高度与盒子大小一致*/
+}
+
+.start .left li {
+    float: left;/*水平排列*/
+    font-size: 22px;
+    cursor: pointer;
+}
+.start .right li {
+    float:right;
+    color: #99FF33;
+    background: #646464;
+    cursor: crosshair;
+}

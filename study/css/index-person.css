@@ -1,0 +1,22 @@
+#person{
+    width: 531px;
+    height: 374px;
+    /* background: #FFCCFF; */
+    position: relative;
+}
+#person .peo{
+    width: 257px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 71px;
+    right: 127px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+#person h1{
+    position: absolute;
+    top: 71px;
+    right: 127px;
+    display: none;
+}
